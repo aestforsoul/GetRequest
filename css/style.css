@@ -1,0 +1,61 @@
+:root {
+  --white: #fff;
+  --dark-blue: #12203d;
+}
+
+.page {
+  font-family: "Russo One", sans-serif;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--white);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container {
+  width: 90%;
+  background-color: var(--dark-blue);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+}
+
+.chr-input,
+.buttons__one-btn,
+.buttons__all-btn {
+  height: 3rem;
+  padding: 0.375rem 0.75rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.buttons {
+  width: 50%;
+  display: flex;
+}
+
+.chr-input {
+  width: 70%;
+  color: var(--dark-blue);
+  outline: none;
+}
+
+.buttons__one-btn,
+.buttons__all-btn {
+  color: var(--dark-blue);
+  background-color: var(--white);
+  width: 50%;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.info {
+    width: 70%;
+}
