@@ -1,6 +1,7 @@
 :root {
   --white: #fff;
   --dark-blue: #12203d;
+  --light-blue: #c2d1ff;
 }
 
 .page {
@@ -57,5 +58,21 @@
 }
 
 .info {
-    width: 70%;
+  width: 70%;
+}
+
+.info__product {
+  background-color: var(--light-blue);
+  padding: 1rem 0 0.5rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.product__info,
+.product__title {
+  color: var(--dark-blue);
+}
+
+.product__title {
+  font-weight: bold;
 }
